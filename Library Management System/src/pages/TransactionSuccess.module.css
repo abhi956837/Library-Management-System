@@ -1,0 +1,43 @@
+.successBox {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(18px);
+  border: 1px solid #e0e7f0;
+  border-radius: 22px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 102, 204, 0.15);
+  max-width: 500px;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.message {
+  margin: 0 0 16px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f2951;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.redirectText {
+  margin: 0;
+  font-size: 1rem;
+  color: #64748b;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 640px) {
+  .successBox {
+    padding: 30px 20px;
+    margin: 40px auto;
+  }
+
+  .message {
+    font-size: 1.25rem;
+  }
+
+  .redirectText {
+    font-size: 0.95rem;
+  }
+}
