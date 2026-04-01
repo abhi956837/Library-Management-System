@@ -44,3 +44,5 @@ coverage/
 .parcel-cache/
 dist/
 .turbo/
+.package-lock.json
+.package.json
