@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-A simple, elegant, and user-friendly application to manage your library like a pro! Whether you're running a small community library or a large institutional one, this system helps you organize books, manage members, track borrowed items, and handle fines—all in one place.
+A simple, elegant, and user-friendly application to manage your library , Whether you're running a small community library or a large institutional one, this system helps you organize books, manage members, track borrowed items, and handle fines—all in one place.
 
 ---
 
