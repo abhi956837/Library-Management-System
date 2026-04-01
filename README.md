@@ -1,5 +1,18 @@
 # 📚 Library Management System
 
+## 🌐 Live Demo
+
+🚀 **Frontend (Vercel Deployment):**
+```bash
+https://library-management-system-gamma-henna.vercel.app/
+```
+
+A simple, elegant, and user-friendly application to manage your library like a pro! Whether you're running a small community library or a large institutional one, this system helps you organize books, manage members, track borrowed items, and handle fines—all in one place.
+
+
+
+# 📚 Library Management System
+
 A simple, elegant, and user-friendly application to manage your library , Whether you're running a small community library or a large institutional one, this system helps you organize books, manage members, track borrowed items, and handle fines—all in one place.
 
 ---
