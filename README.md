@@ -64,18 +64,38 @@ Now imagine that notebook is powered by modern technology! That's what this syst
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-- ⚛️ React 19 with Vite
-- 🎨 Modern CSS with responsive design
-- ✨ Beautiful blue professional theme
+### Frontend
+| Technology | Version | Purpose |
+|---|---|---|
+| [React](https://react.dev/) | 19 | UI component library — builds the interactive single-page application |
+| [Vite](https://vite.dev/) | 8 | Lightning-fast dev server and build tool (replaces Create React App) |
+| `@vitejs/plugin-react` | 6 | Vite plugin that enables JSX transforms and React Fast Refresh |
+| CSS Modules / Vanilla CSS | — | Scoped component styles and global theme (no CSS framework needed) |
+| [ESLint](https://eslint.org/) | 9 | Static code linting with React-specific rules (`react-hooks`, `react-refresh`) |
+| [concurrently](https://github.com/open-cli-tools/concurrently) | 9 | Runs the frontend dev server and backend server in one terminal |
+| [nodemon](https://nodemon.io/) | 3 | Auto-restarts the bundled Express server on file changes during development |
 
-**Backend:**
-- 🟩 Node.js with Express
-- 🍃 MongoDB for data storage
-- 🔄 Auto-save to database
+### Backend
+| Technology | Version | Purpose |
+|---|---|---|
+| [Node.js](https://nodejs.org/) | ≥ 18 (LTS) | JavaScript runtime that powers the backend API server |
+| [Express](https://expressjs.com/) | 4 / 5 | Minimal web framework — handles HTTP routing and middleware |
+| [Mongoose](https://mongoosejs.com/) | 8 | ODM (Object Data Modeling) library for MongoDB; defines schemas & runs queries |
+| [cors](https://github.com/expressjs/cors) | 2 | Allows the React frontend (port 5173) to call the API server (port 5000) |
+| [dotenv](https://github.com/motdotla/dotenv) | 16 / 17 | Loads environment variables from a `.env` file (e.g. `MONGODB_URI`, `PORT`) |
+| [nodemon](https://nodemon.io/) | 3 | Auto-restarts the backend server on source-file changes |
 
-**Database:**
-- 💾 MongoDB (local or MongoDB Atlas cloud)
+### Database
+| Technology | Version | Purpose |
+|---|---|---|
+| [MongoDB](https://www.mongodb.com/) | 6 + | NoSQL document database — stores books, members, users, and transactions |
+| [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) | Cloud | Optional hosted MongoDB (free tier available) for cloud deployment |
+
+### Language
+| Technology | Notes |
+|---|---|
+| JavaScript (ES Modules) | Both frontend and backend use `"type": "module"` — modern `import`/`export` syntax throughout |
+| JSX | React component templating syntax, transpiled by Vite/Babel |
 
 ---
 
